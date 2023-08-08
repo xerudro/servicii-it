@@ -1,55 +1,103 @@
-<!DOCTYPE html>
-<html>
 <head>
-  <title>SimpliTech</title>
-  <link rel="stylesheet" href="/css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Hosting</title>
+    <meta name="description" content="Servicii Web Design , Hosting si mentenanta IT">
+    <link rel="icon" href="img/favicon.png" sizes="32x32" type="image/png">
+    <!-- custom.css -->
+    <link rel="stylesheet" href="css/custom.css">
+    
+
+    <!-- bootstrap.min.css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+	<!-- font-awesome -->
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    
+    <!-- AOS -->
+    <link rel="stylesheet" href="css/aos.css">
 </head>
+
 <body>
-  <header>
-    <nav class="navbar">
-        <h1 class="logo">
-            <span style="color: #fcf8f7;">Simply</span>
-            <span style="color: black;">Tech Agency</span>
-          </h1>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About Us</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Portfolio</a></li>
-        <li><a href="#">Contact Us</a></li>
-      </ul>
-      <button class="cta">Call to Action</button>
-    </nav>
-  </header>
-  <section class="hero">
-    <img src="images/hero.img" alt="SimpliTech Hero Image">
-    <h1>SimpliTech</h1>
-    <p>We make IT easy.</p>
-    <button class="cta">Learn More</button>
-  </section>
-  <section class="features">
-    <div class="row">
-      <div class="col">
-        <img src="images/feature-1.jpg" alt="Feature 1 Image">
-        <h2>Feature 1</h2>
-        <p>This is the text for feature 1.</p>
-      </div>
-      <div class="col">
-        <img src="images/feature-2.jpg" alt="Feature 2 Image">
-        <h2>Feature 2</h2>
-        <p>This is the text for feature 2.</p>
-      </div>
-      <div class="col">
-        <img src="images/feature-3.jpg" alt="Feature 3 Image">
-        <h2>Feature 3</h2>
-        <p>This is the text for feature 3.</p>
-      </div>
-      <div class="col">
-        <img src="images/feature-4.jpg" alt="Feature 4 Image">
-        <h2>Feature 4</h2>
-        <p>This is the text for feature 4.</p>
-      </div>
+    <!-- banner -->
+    <div class="jumbotron jumbotron-fluid" id="banner" style="background-image: url(img/banner-bk.jpg);">
+        <div class="container text-center text-md-left">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container d-flex justify-content-center">
+                    <a class="navbar-brand">
+                        <span class="brand-simpli">Simpli</span><span class="brand-tech">Tech</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav mx-auto justify-content-center">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Acasă <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Servicii</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Preturi</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Portofoliu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>        
+            <header>
+                <div class="row justify-content-between">
+                    <div class="col-2">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col-6 align-self-center text-right">
+                        <a href="#" class="text-white lead">###</a>
+                    </div>
+                </div>
+            </header>
+            <h1 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-3 text-white font-weight-bold my-5">
+            	Servicii IT <br>
+            	Pentru Toate Buzunarele
+            </h1>
+            <h3 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-5 text-white font-weight-bold my-3"> Prezenta Online</h3>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                Transformăm ideile în experiențe web uimitoare. Fie că e vorba de design modern, optimizare SEO sau conținut captivant, suntem aici pentru tine.
+                <br> Viziunea ta devine realitate cu noi. Împreună construim online-ul de mâine.
+            </p>
+            <h3 data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="display-5 text-white font-weight-bold my-3"> Mentenanta IT</h3>
+            <p data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="lead text-white my-4">
+                Specialiști în rezolvarea problemelor IT. Echipa noastră aduce PC-urile la viață și menține tehnologia în funcțiune.
+                <br> Fie că e vorba de reparații sau optimizări, suntem aici să vă oferim soluții rapide și eficiente.
+            </p>
+            <a href="#" data-aos="fade" data-aos-easing="linear" data-aos-duration="1000" data-aos-once="true" class="btn my-4 font-weight-bold atlas-cta cta-green">Get Started</a>
+        </div>
     </div>
-  </section>
+    
+    <!-- Restul conținutului paginii -->
+    
+    <!-- Footer -->
+    <!-- Copiază codul pentru subsolul paginii din pagina hosting și adaptează-l aici -->
+
+    <!-- Scrie aici scripturile JavaScript necesare -->
+     <!-- AOS -->
+     <script src="js/aos.js"></script>
+     <script>
+       AOS.init({
+       });
+     </script>
+     
+        
+     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+     <!-- Includem Popper.js (necesar pentru Bootstrap JS) -->
+     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+     <!-- Includem Bootstrap JS -->
+     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </body>
 </html>
